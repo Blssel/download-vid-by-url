@@ -10,5 +10,5 @@ json_parser['kinetics']=parse_kinetics
 json_parser['ava']=parse_ava
 
 def parse_json_file(dataset,json_file):
-    jf=json_parser[dataset]  # jf是用来解析dataset数据集的函数名
-    return jf(json_file)
+  jf=json_parser[dataset]  # jf是用来解析dataset数据集的函数名
+  return jf(json_file)
