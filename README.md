@@ -8,6 +8,11 @@
 
 最终视频的存放方式是：以视频ID为视频名，拓展名为.mp4，所有视频都存放在同一个文件夹下，不区分类别。比如activitynet和kinetics数据集是以.json文件方式提供ID和URL。
 
+## 安装youtube-dl
+```shell
+pip install youtube-dl
+```
+
 ## 运行download.py文件
 ```shell
 cd download
